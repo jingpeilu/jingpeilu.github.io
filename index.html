@@ -30,7 +30,25 @@
 </head>
 
 <body id="top">
-
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "asdf") {
+window.open("misc/misc.html");
+break;
+} 
+testV+=1;
+var pass1 = prompt('Access Denied - Password Incorrect, Please Try Again.','');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
 	<!-- header 
    ================================================== -->
    <header>   	
@@ -45,6 +63,8 @@
 						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
 						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
 						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+            <li><a class="smoothscroll"  onClick="passWord()" href="#intro" title="">Misc</a></li>  
+
 					</ul>
 				</nav>    		
    		</div> <!-- /top-bar --> 
@@ -93,7 +113,7 @@
 
    				<img src="images/profile-pic.jpg" alt="Profile Picture">
 
-   				<p class="lead">Gemini. Barcelona Fan. From the south of China. Born in grain filling solar term. Love music, love sports, love science. Respect metaphysics. Keep calm and carry on.</p>
+   				<p class="lead">From the south of China. Born in grain filling solar term. Love music, love sports, love science. Respect metaphysics. Barcelona Fan. Engineer by profession. Artist by heart. Keep calm and carry on.</p>
    			</div>   			
 
    		</div>   		
@@ -104,7 +124,6 @@
    		<div class="col-six tab-full">
 
    			<h3>Profile</h3>
-   			<p>Engineer by profession. Artist by heart.</p>
 
    			<ul class="info-list">
    				<li>
@@ -119,6 +138,10 @@
    					<strong>Zodiac:</strong>
    					<span>Rat</span>
    				</li>
+          <li>
+            <strong>Constellation:</strong>
+            <span>Gemini</span>
+          </li>
    				<li>
    					<strong>Hometown:</strong>
    					<span>Xiamen</span>
