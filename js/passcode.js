@@ -14,3 +14,10 @@ var pass1 = prompt('Access Denied - Password Incorrect, Please Try Again.','');
 if (pass1.toLowerCase()!="password" & testV ==3) 
 return " ";
 } 
+
+
+function openmisc() {
+
+window.open("misc/misc.html");
+
+} 
