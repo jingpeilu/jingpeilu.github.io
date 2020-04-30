@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU}{project.html}
+= Projects
+
+== *Group Design Project*
+
+- *Coustomized RL Enviornment for daVinci Sugical Robot*\n
+1. Coustomized a gym-like RL enviornment for daVinci Surgical Robot \n
+2. Implemented DDPG and TD3 for reaching task \n
+\[[doc/robotics/RL_for_daVinci.pdf report]\] \[[doc/ECE276C_Poster.pdf poster]\]
+
+
+== *Computer Vision*
+
+
+== *Robotics/ML/RL*
+
+
+== *Others*
+

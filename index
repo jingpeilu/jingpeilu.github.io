@@ -1,0 +1,31 @@
+# jemdoc: menu{MENU}{index.html}
+= Home
+
+~~~
+{}{img_left}{Jingpei.jpg}{Jingpei}
+*Jingpei Lu*\n
+M.S. in /Intelligent Systems, Robotics and Control/ \n
+University of California, San Diego \n
+jil360 at ucsd.edu
+~~~
+ 
+*Research Interests*: /Robotics, Computer Vision, and Machine Learning /\n\n 
+I am a Master's student at /ECE Department/ at UC San Diego, where I am conducting research at /[https://www.ucsdarclab.com/ Advanced Robotics and Controls Lab (ARClab)]/ under the supervision of Prof. Michael Yip. 
+Before that, I received my Bachelor's degree in Electrical Engineering from UC San Diego, and doing my undergraduate research at /[http://www.svcl.ucsd.edu/ Statistical Visual Computing Laboratory (SVCL)]/. \n
+Starting in 2019, I have also been closely collaborating with /[https://evt.ai/ Educational Vision Technologies (EVT)]/ in developing the online learning system using Machine Learning techniques. \n
+My research interests lie in Computer Vision and Robotics. Currently, my research focus on solving perception problems for surgical robotics using deep learning techniques.
+
+== *Paper*
+~~~
+{}{img_left}{images/banner.gif}{super}
+- *SuPer Deep: A Surgical Perception Framework for Robotic Tissue Manipulation using Deep Learning for Feature Extraction*\n
+*Jingpei Lu*\*, Ambareesh Jayakumari\*, Florian Richter, Yang Li, and Michael C. Yip (\* Equal contributions) \n
+/arXiv/ 2020.\n
+\[[https://arxiv.org/abs/2003.03472 arXiv]\]\n
+
+- *SuPer: A Surgical Perception Framework for Endoscopic Tissue Manipulation with Surgical Robotics*\n
+Yang Li\*, Florian Richter\*, *Jingpei Lu*, Emily K. Funk, Ryan K. Orosco, Jianke Zhu, and Michael C. Yip (\* Equal contributions)\n
+/IEEE Robotics and Automation Letters/, vol. 5, no. 2, pp. 2294-2301, April 2020.\n
+\[[https://arxiv.org/abs/1909.05405 arXiv]\] \[[https://sites.google.com/ucsd.edu/super-framework/home website]\]\n
+~~~
+
