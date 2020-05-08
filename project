@@ -8,12 +8,62 @@
 2. Implemented DDPG and TD3 for reaching task \n
 \[[doc/robotics/RL_for_daVinci.pdf report]\] \[[doc/ECE276C_Poster.pdf poster]\]
 
+- *Inner-Class and Inter-Class Style Transfer using CycleGAN*\n
+1. Explored the domain gaps between inner-class domains and inter-class domains \n
+2. Implemented CycleGAN [1] and trained it on different data \n
+\[[doc/CSE_253_Final_Project.pdf report]\] \[[doc/cse253_Final_Project.pdf presentation]\]
+
+- *Autonomous R/C Vehicle*\n
+1. Built a remote control vehicle that can autonomously run on an outdoor scaled track \n
+2. Improved the vehicle by adding traffic signs recognition functionality and speeding up the video processing efficiency three times using the multi-threaded approach \n
+\[[https://guitar.ucsd.edu/maeece148/index.php/2018SpringTeam7 report]\] \[[https://docs.google.com/presentation/d/1uVc08XFVtdsafRSfQ4MHQ3M6OF7-2QtXlHyVuV-0_iA/edit?usp=sharing presentation]\]
+
+- *Drone Integration for RF Scanner Payload*\n
+1. Integrated an RF scanning payload with a drone (DJI Matrice 100) to automate the processes of detecting wireless signal's strength in open area \n
+2. Developed a mobile app to record the signal strength data and generate the heatmap which can visualize the data better \n
+\[[doc/TeamG_FinalReport.pdf report]\] \[[doc/TeamG_Mar_21_final.pdf presentation]\]
+
+- *Electromagnetic Cannon*\n
+1. Built an electromagnetic cannon with $100 budget \n
+2. Implemented circuit design, 3D printing, Arduino coding and make distinct functions to work together to complete a bigger task \n
+\[[doc/Final_Report.pdf report]\] \[[doc/Group_1_Final_Presentation.pdf presentation]\]
+
 
 == *Computer Vision*
+- Image Captioning Using Encoder-Decoder Architecture \[[doc/Programming_Assignment_4.pdf report]\]
+- Semantic Segmentation \[[doc/Programming_Assignment_3.pdf report]\]
+- Image Classification Using Multilayer Perceptron \[[doc/253HW2_Report.pdf report]\]
+- Logistic Regression and Softmax Regression via Gradient Descent for Emotion Recognition with PCA \[[doc/253HW1_Report.pdf report]\]
+- Rigid body transformations, Homography \[[doc/codes/252ahw1.html jupiter notebook]\]
+- Photometric Stereo, Specularity Removal, Surface Rendering \[[doc/codes/252ahw2.html jupiter notebook]\]
+- Sparse Stereo Matching \[[doc/codes/252ahw3.html jupiter notebook]\]
+- Optical Flow, Classifier(KNN,PCA,Perceptron) \[[doc/codes/252ahw4.html jupiter notebook]\]
+- Corner detection \[[doc/codes/feature_detection.html jupiter notebook]\]
+- Camera Projection Matrix Estimation \[[doc/codes/252bhw2.html jupiter notebook]\]
+- Camera Pose Estimation \[[doc/codes/252bhw3.html jupiter notebook]\]
+- Planar Projective Transformation Matrix Estimation \[[doc/codes/252bhw4.html jupiter notebook]\]
+- Fundamental Matrix Estimation \[[doc/codes/252bhw5.html jupiter notebook]\]
 
 
-== *Robotics/ML/RL*
+== *Intelligent System and Robotics*
+- Color Segmentation, Logistic Regression \[[doc/ece276hw1.pdf report]\]
+- SLAM with Partical Filter \[[doc/ece276hw2.pdf report]\]
+- SLAM with Extended Kalman Filter \[[doc/ece276hw3.pdf report]\]
+- Shortest Path with Dynamic Programming \[[doc/robotics/276b_hw1_problem4.pdf report]\]
+- Optimal Strategy with Dynamic Programming \[[doc/robotics/276b_hw1_problem5.pdf report]\]
+- A\*, LRTA\*, RRT\* \[[doc/robotics/276b_hw2_P4.pdf report]\]
+- SARSA and Q-learning \[[doc/robotics/276b_hw3_P3.pdf report]\]
+- Value Iteration and Policy Iteration \[[doc/robotics/276b_hw3_P4.pdf report]\]
+- Model-based Control \[[doc/robotics/276chw1.pdf report]\]
+- VI, PI and Q-learning \[[doc/robotics/276chw2.pdf report]\]
+- Policy Gradient \[[doc/robotics/276chw3.pdf report]\]
+- Deep Deterministic Policy Gradients \[[doc/robotics/276chw4.pdf report]\]
 
 
 == *Others*
+- Dynamic Programming \[[doc/codes/Dynamic_Programming.html jupiter notebook]\]
+- Bike sharing predict \[[doc/codes/Bike_sharing_predict.html jupiter notebook]\]
+- Sentiment analysis (simple NN) \[[doc/codes/Sentiment_Classification.html jupiter notebook]\]
+- Generate minst-like images (GAN) \[[doc/codes/Intro_to_GANs_Exercises.html jupiter notebook]\]
+- Generate sentences (RNN) \[[doc/codes/Anna_KaRNNa.html jupiter notebook]\]
 
