@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{project.html}
 = Projects
 
-== *Group Design Project*
+== *Group Projects*
 
 - *Coustomized RL Enviornment for daVinci Sugical Robot*\n
 1. Coustomized a gym-like RL enviornment for daVinci Surgical Robot \n
@@ -17,6 +17,11 @@
 1. Built a remote control vehicle that can autonomously run on an outdoor scaled track \n
 2. Improved the vehicle by adding traffic signs recognition functionality and speeding up the video processing efficiency three times using the multi-threaded approach \n
 \[[https://guitar.ucsd.edu/maeece148/index.php/2018SpringTeam7 report]\] \[[https://docs.google.com/presentation/d/1uVc08XFVtdsafRSfQ4MHQ3M6OF7-2QtXlHyVuV-0_iA/edit?usp=sharing presentation]\]
+
+- *Deep Learning for Plankton Image Retrieval*\n
+1. Developed a content-based image retrieval system for plankton images using a deep convolutional neural network which assisted biological oceanographers in researching and labeling the plankton images \n
+2. Researched on different machine learning and deep learning methods, which accelerated the searching process and improved the precision of the baseline retrieval system by about 30% \n
+\[[doc/SRC_Presentation.pdf presentation]\] \[[doc/Screen_Recording_Clip.mp4 video]\]
 
 - *Drone Integration for RF Scanner Payload*\n
 1. Integrated an RF scanning payload with a drone (DJI Matrice 100) to automate the processes of detecting wireless signal's strength in open area \n
