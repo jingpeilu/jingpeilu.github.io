@@ -61,7 +61,39 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+          <tr onmouseout="keypoint_stop()" onmouseover="keypoint_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ff_image'>
+                  <img src='images/baxter.png' width="180"></div>
+                <img src='images/baxter.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function keypoint_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function keypoint_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                keypoint_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Robust Keypoint Detection and Pose Estimation of Robot Manipulators with Self-Occlusions via Sim-to-Real Transfer
+                </papertitle>
+              </a>
+              <br>
+              <b>Jingpei Lu</b>, Florian Richter, and Michael C. Yip
+              <br>
+        <em>arXiv</em>, 2020  
+              <br>
+              [<a href="https://arxiv.org/abs/2010.08054">arXiv</a>] [<a href="https://sites.google.com/ucsd.edu/keypoint-optimization/home">website</a>]
+              <p></p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="superdeep_stop()" onmouseover="superdeep_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='ff_image'>
@@ -69,14 +101,14 @@
                 <img src='images/super_deep.png' width="180">
               </div>
               <script type="text/javascript">
-                function ff_start() {
+                function superdeep_start() {
                   document.getElementById('ff_image').style.opacity = "1";
                 }
 
-                function ff_stop() {
+                function superdeep_stop() {
                   document.getElementById('ff_image').style.opacity = "0";
                 }
-                ff_stop()
+                superdeep_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -95,17 +127,17 @@
           <tr onmouseout="super_stop()" onmouseover="super_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='ff_image'>
+                <div class="two" id='super_image'>
                   <img src='images/super.png' width="180"></div>
                 <img src='images/super.png' width="180">
               </div>
               <script type="text/javascript">
                 function super_start() {
-                  document.getElementById('ff_image').style.opacity = "1";
+                  document.getElementById('super_image').style.opacity = "1";
                 }
 
                 function super_stop() {
-                  document.getElementById('ff_image').style.opacity = "0";
+                  document.getElementById('super_image').style.opacity = "0";
                 }
                 super_stop()
               </script>
@@ -117,12 +149,13 @@
               Yang Li*, Florian Richter*, <b>Jingpei Lu</b>, Emily K. Funk, Ryan K. Orosco, Jianke Zhu, and Michael C. Yip (* Equal contributions)
               <br>
               <i>IEEE Robotics and Automation Letters</i>, vol. 5, no. 2, pp. 2294-2301, April 2020.<br />
-              <i>ICRA</i>, 2020  
+              <i>presentated at ICRA 2020</i>
               <br>
               [<a href="https://arxiv.org/abs/1909.05405">arXiv</a>] [<a href="https://sites.google.com/ucsd.edu/super-framework/home">website</a>]
               <p></p>
             </td>
           </tr> 
+          
 
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -130,7 +163,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Website templete from <a href="https://github.com/jonbarron/jonbarron_website">here</a>, thanks!
+                Website templete from <a href="https://github.com/jonbarron/jonbarron_website">here</a>.
               </p>
             </td>
           </tr>
